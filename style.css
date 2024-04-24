@@ -1,0 +1,83 @@
+html {
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(images/sciencebg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  color: white;
+  border-radius: 20px;
+  padding: 30px;
+  background-color: rgba(128, 128, 128, 0.7);
+  margin: 10px auto;
+  width: 500px;
+}
+
+#title {
+  text-align: center;
+  font-size: 32px;
+}
+
+#earth {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#subject-btns {
+  text-align: center;
+}
+
+.subject-btn {
+  padding: 5px 20px;
+  border-radius: 5px;
+  border-color: white;
+  color: white;
+}
+
+button:hover {
+  filter: brightness(110%);
+  transition: filter 0.2s;
+}
+
+#phys-btn {
+  background-color: royalblue;
+}
+
+#chem-btn {
+  background-color: maroon;
+}
+
+#bio-btn {
+  background-color: forestgreen;
+}
+
+#home-btn {
+  background-color: black;
+}
+
+.calculate {
+  padding: 5px 20px;
+  border-radius: 5px;
+  border-color: gray;
+  color: white;
+  background-color: #525252;
+}
+
+.center {
+  text-align: center;
+}
+
+.chem-inp {
+  font-size: 20px;
+  height: 30px;
+  width: 100px;
+}
+
+.chem-result {
+  font-size: 20px;
+  height: 30px;
+  width: 100px;
+}
